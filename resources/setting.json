@@ -1,0 +1,6 @@
+{
+  "lang": "eng",
+  "default-money": 5000,
+  "max-money": 10000000000,
+  "money-unit": "￦"
+}

@@ -1,0 +1,14 @@
+name: VirtualEconomy
+main: skh6075\virtualeconomy\VirtualEconomy
+author: AvasKr
+version: 1.0.0
+api: [4.0.0]
+website: https://github.com/GodVas
+
+permissions:
+  mymoney.command.permission:
+    default: true
+  seemoney.command.permission:
+    default: true
+  pay.command.permission:
+    default: true

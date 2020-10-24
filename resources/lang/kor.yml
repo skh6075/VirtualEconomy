@@ -1,0 +1,19 @@
+"prefix": "§l§b[알림]§r§7 "
+
+mymoney.command.name: "내돈"
+mymoney.command.description: "내돈 명령어 입니다."
+mymoney.command.success: "현재 보유중인 내돈: %money% %unit%"
+
+seemoney.command.name: "돈보기"
+seemoney.command.description: "돈보기 명령어 입니다."
+seemoney.command.help: "/돈보기 [닉네임]"
+seemoney.command.success: "%username% 님의 현재 보유돈: %money% %unit%"
+seemoney.command.fail: "%username% 님의 데이터를 찾을 수 없습니다."
+
+pay.command.name: "지불"
+pay.command.description: "지불 명령어 입니다."
+pay.command.help: "/지불 [닉네임] [액수]"
+pay.command.param.amount.small: "지불할 금액은 0보다 커야 됩니다."
+pay.command.param.amount.money: "지불할 금액이 보유한 자금보다 높습니다."
+pay.command.success: "성공적으로 %username%님에게 %amount% %unit% 만큼 지불하였습니다."
+pay.command.transfer.target: "%username% 님께서 당신에게 %amount% %unit% 만큼 지불하였습니다."

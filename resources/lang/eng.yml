@@ -1,0 +1,19 @@
+"prefix": "§l§b[Economy]§r§7 "
+
+mymoney.command.name: "mymoney"
+mymoney.command.description: "mymoney command"
+mymoney.command.success: "You have money: %money% %unit%"
+
+seemoney.command.name: "seemoney"
+seemoney.command.description: "seemoney command"
+seemoney.command.help: "/seemoney [username]"
+seemoney.command.success: "%username% now have money: %money% %unit%"
+seemoney.command.fail: "%username% player data not founded."
+
+pay.command.name: "pay"
+pay.command.description: "pay command"
+pay.command.help: "/pay [username] [amount]"
+pay.command.param.amount.small: "The amount to be paid must be greater than 0."
+pay.command.param.amount.money: "The amount to be paid is higher than the amount held."
+pay.command.success: "I paid %username% %amount% %unit%."
+pay.command.transfer.target: "%username% paid you %amount% %unit%."
